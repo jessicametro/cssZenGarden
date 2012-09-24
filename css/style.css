@@ -126,8 +126,10 @@ h2 span {
 h3 {
   	font-family: "Helvetica Neue", Arial, sans-serif;
 /*  font-style: italic;  */
-  	font-size: 1.2em;
+  	font-size: 1.35em;
   	line-height: 1.8em;
+  	font-weight: 200;
+  	color: #222;
   	margin-top: 1.8em;
 /*  margin-bottom: 0.4em;  */
 }
@@ -135,6 +137,7 @@ h3 {
 p {
 	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-size: .8em;
+	color: #222;
 	line-height: 1.8em;
 	margin-top: 1em;
 }
@@ -167,9 +170,29 @@ p {
 	display: none;
 }
 
-#linkList {
-	position: fixed;
-	float: right;
+#preamble {
+	padding-bottom: 2.7em;
+	border-bottom: 2px dotted #fff;
+}
+
+#explanation {
+	padding-bottom: 2.7em;
+	border-bottom: 2px dotted #fff;
+}
+
+#participation {
+	padding-bottom: 2.7em;
+	border-bottom: 2px dotted #fff;
+}
+
+#benefits {
+	padding-bottom: 2.7em;
+	border-bottom: 2px dotted #fff;
+}
+
+#requirements {
+	padding-bottom: 2.7em;
+	border-bottom: 2px dotted #fff;
 }
 
 #footer {
@@ -197,12 +220,6 @@ p {
 	z-index: -1000000000;
 }
 
-a {
-	color: #669933;
-	text-decoration: none;
-	font-weight: 600;
-}
-
 #extraDiv2 {
 	position: fixed;
 	top: 120px;
@@ -219,9 +236,16 @@ a {
 	height: 10px;
 }
 
+#linkList {
+	position: fixed;
+	float: right;
+}
 
-
-
+a {
+	color: #669933;
+	text-decoration: none;
+	font-weight: 600;
+}
 
 
 
