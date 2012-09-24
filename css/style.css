@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+
+@font-face {
+  font-family: 'Nova Square';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nova Square'), local('NovaSquare'), url(http://themes.googleusercontent.com/static/fonts/novasquare/v5/YsNHj2Yx5KzHzIjNe-czdLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Buda';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Buda'), url(http://themes.googleusercontent.com/static/fonts/buda/v3/LjwoG0-QkvByFM8NJaZmJQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display'), local('PlayfairDisplay'), url(http://themes.googleusercontent.com/static/fonts/playfairdisplay/v6/2NBgzUtEeyB-Xtpr9bm1CV4QaRhHkZLZrsruvIjJ6Xo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ovo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ovo'), url(http://themes.googleusercontent.com/static/fonts/ovo/v4/1cRrj96WT3He974w7Euhdw.woff) format('woff');
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+#container {
+/*	background-color: #fff; */
+	width: 960px;
+	padding: 0px 30px 0 30px;
+	margin: 0px auto 0px auto;
+	
+}
+
+#pageHeader {
+	background-color: rgba(255, 255, 255, .7);
+/*	background-image: url("../images/divider-shadow.png");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: bottom center; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	z-index: 1000000000;
+}
+
+h1 {
+  	font-family: 'Playfair Display';
+  	font-style: normal;
+ 	font-weight: 400;  	
+ 	font-size: 2.5em;
+ 	padding: 16px 0px 0px 0px;
+}
+
+h2 {
+  	font-family: 'Playfair Display';
+  	font-style: normal;
+ 	font-weight: 400;  	
+  	font-size: 1.5em;
+  	padding-top: 6px;
+}
+
+h2 span {
+  	display: inline-block;
+  	padding-bottom: 6px;
+  	border-bottom: 7px double #000;
+}  	
+
+h3 {
+  	font-family: "Helvetica Neue", Arial, sans-serif;
+/*  font-style: italic;  */
+  	font-size: 1.2em;
+  	line-height: 1.8em;
+  	margin-top: 1.8em;
+/*  margin-bottom: 0.4em;  */
+}
+
+p {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: .8em;
+	line-height: 1.8em;
+	margin-top: 1em;
+}
+
+#quickSummary {
+	height: 360px;
+/*
+	background-image: url("../images/garden_0296.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 480px;
+*/
+}
+
+#quickSummary p.p1 {
+	margin-top: 120px;
+	padding: 135px 1em 0 1em;
+	font-family: 'Playfair Display';
+  	font-style: italic;
+ 	font-weight: 400;  	
+  	font-size: 1.5em;
+  	color: #fff;
+  	text-align: center;
+  	text-shadow: 0 1px 0 rgba(0,0,0,0.50);
+}
+
+#quickSummary p.p2 {
+	display: none;
+}
+
+#linkList {
+	position: fixed;
+	float: right;
+}
+
+#footer {
+/*	height: 30px;  */
+	margin: 30px 0 0 0;
+	padding: 12px 0 12px 0;
+	border-top: 1px solid #ccc; 
+	background-color: #fff;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: .8em;
+	line-height: 1.8em;
+	text-align: center;
+/*	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%; */
+}
+
+#extraDiv1 span img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 480px;
+	z-index: -1000000000;
+}
+
+a {
+	color: #669933;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#extraDiv2 {
+	position: fixed;
+	top: 120px;
+	width: 100%; 
+	height: 10px;
+	z-index: 1;
+}
+
+#extraDiv2 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 960px;
+	height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
