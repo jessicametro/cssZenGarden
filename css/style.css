@@ -81,7 +81,7 @@ body {
 
 #container {
 /*	background-color: #fff; */
-	width: 960px;
+	width: 900px;
 	padding: 0px 30px 90px 30px;
 	margin: 0px auto 0px auto;
 	
@@ -157,7 +157,7 @@ p {
 
 #quickSummary p.p1 {
 	margin-top: 120px;
-	padding: 135px 1em 0 1em;
+	padding-top: 135px;
 	font-family: 'Playfair Display';
   	font-style: italic;
  	font-weight: 400;  	
