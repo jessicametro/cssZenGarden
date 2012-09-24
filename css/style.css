@@ -80,7 +80,7 @@ body {
 
 #container {
 /*	background-color: #fff; */
-	width: 960px;
+	width: 900px;
 	padding: 0px 30px 0 30px;
 	margin: 0px auto 0px auto;
 	
@@ -124,12 +124,13 @@ h2 span {
 }  	
 
 h3 {
-  	font-family: "Helvetica Neue", Arial, sans-serif;
+  	font-family: 'Playfair Display', "Helvetica Neue", Arial, sans-serif;
 /*  font-style: italic;  */
-  	font-size: 1.35em;
+  	font-size: 1.5em;
   	line-height: 1.8em;
-  	font-weight: 200;
+  	font-weight: 900;
   	color: #222;
+  	text-align: center;
   	margin-top: 1.8em;
 /*  margin-bottom: 0.4em;  */
 }
@@ -156,7 +157,7 @@ p {
 
 #quickSummary p.p1 {
 	margin-top: 120px;
-	padding: 135px 1em 0 1em;
+	padding-top: 135px;
 	font-family: 'Playfair Display';
   	font-style: italic;
  	font-weight: 400;  	
@@ -173,26 +174,110 @@ p {
 #preamble {
 	padding-bottom: 2.7em;
 	border-bottom: 2px dotted #fff;
+	overflow: auto;
+}
+
+#preamble p.p1 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#preamble p.p2 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#preamble p.p3 {
+	width: 280px;
+	float: left;
 }
 
 #explanation {
 	padding-bottom: 2.7em;
 	border-bottom: 2px dotted #fff;
+	overflow: auto;
+}
+
+#explanation p.p1 {
+	width: 280px;
+	margin-left: 155px;
+	margin-right: 30px;
+	float: left;
+}
+
+#explanation p.p2 {
+	width: 280px;
+	float: left;
 }
 
 #participation {
 	padding-bottom: 2.7em;
 	border-bottom: 2px dotted #fff;
+	overflow: auto;
 }
+
+#participation p.p1 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#participation p.p2 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#participation p.p3 {
+	width: 280px;
+	float: left;
+}
+
 
 #benefits {
 	padding-bottom: 2.7em;
 	border-bottom: 2px dotted #fff;
+	overflow: auto;
+}
+
+#benefits p.p1 {
+	width: 280px;
+	margin-left: 310px;
 }
 
 #requirements {
-	padding-bottom: 2.7em;
-	border-bottom: 2px dotted #fff;
+	overflow: auto;
+}
+
+#requirements p.p1 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#requirements p.p2 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#requirements p.p3 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#requirements p.p4 {
+	width: 280px;
+	margin-right: 30px;
+	float: left;
+}
+
+#requirements p.p5 {
+	width: 280px;
+	float: left;
 }
 
 #footer {
