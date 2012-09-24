@@ -165,27 +165,35 @@ p {
   	color: #fff;
   	text-align: center;
   	text-shadow: 0 1px 0 rgba(0,0,0,0.50);
+  	position: relative;
+  	z-index: 10000;
 }
 
 #quickSummary p.p2 {
-	width: 160px;
+	width: 960px;
 	height: 80px;
 /*	background-color: #f1f1f1; */
 	background-image: url("../images/ribbon.png");
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-position: right;
 	position: fixed;
 	bottom: 0;
-	right: 30px;
+	right: 50%;
+	margin-right: -450px;
 	color: #fff;
+	line-height: 1.6em;
 	text-align: center;
 /*	margin: 30px 1em 0 1em; */
 	z-index: 100;
 }
 
 #quickSummary p.p2 span {
+	display: block;
+	position: absolute;
+	right: 0;
 	width: 130px;
 	height: 36px;
-	margin: 50em .5em 0 .5em;
+	padding: 20px 15px 0 15px;
 	text-align: center;
 }
 
