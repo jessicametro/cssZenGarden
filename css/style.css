@@ -253,14 +253,22 @@ p {
 }
 
 a {
-	color: #669933;
+	color: #88aa66;
 	text-decoration: none;
 	font-weight: 600;
 }
 
+a:hover {
+	color: #669933;
+} 
 
+a:active {
+	text-decoration: underline;
+}
 
-
-
-
+/* colors
+	light green: #88aa66
+	firm green: #669933;
+	pale blue: #aabbbb;
+*/
 
