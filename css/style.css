@@ -85,7 +85,6 @@ body {
 	padding: 0px 30px 90px 30px;
 	margin: 0px auto 0px auto;
 	overflow: auto;
-	
 }
 
 #pageHeader {
@@ -169,7 +168,25 @@ p {
 }
 
 #quickSummary p.p2 {
-	display: none;
+	width: 160px;
+	height: 80px;
+/*	background-color: #f1f1f1; */
+	background-image: url("../images/ribbon.png");
+	background-repeat: none;
+	position: fixed;
+	bottom: 0;
+	right: 30px;
+	color: #fff;
+	text-align: center;
+/*	margin: 30px 1em 0 1em; */
+	z-index: 100;
+}
+
+#quickSummary p.p2 span {
+	width: 130px;
+	height: 36px;
+	margin: 50em .5em 0 .5em;
+	text-align: center;
 }
 
 #preamble {
@@ -243,7 +260,7 @@ p {
 	left: 0;
 	width: 100%;
 	height: 480px;
-	z-index: -1000000000;
+	z-index: 1001;
 }
 
 #extraDiv2 {
@@ -262,8 +279,19 @@ p {
 	height: 10px;
 }
 
+#extraDiv3 img {
+
+	position: fixed;
+	top: -360px;
+	left: 0;
+	width: 100%;
+	height: 480px;
+	z-index: 1000;
+}
+
 #linkList {
-	position: relative;
+	position: -webkit-sticky;
+	top: 15px;
 	right: 0;
 	text-align: right;
 }
