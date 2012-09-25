@@ -49,29 +49,12 @@ table {
 
 /* end css reset */
 
-@font-face {
-  font-family: 'Nova Square';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Nova Square'), local('NovaSquare'), url(http://themes.googleusercontent.com/static/fonts/novasquare/v5/YsNHj2Yx5KzHzIjNe-czdLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-}
-@font-face {
-  font-family: 'Buda';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Buda'), url(http://themes.googleusercontent.com/static/fonts/buda/v3/LjwoG0-QkvByFM8NJaZmJQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
+
 @font-face {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   src: local('Playfair Display'), local('PlayfairDisplay'), url(http://themes.googleusercontent.com/static/fonts/playfairdisplay/v6/2NBgzUtEeyB-Xtpr9bm1CV4QaRhHkZLZrsruvIjJ6Xo.woff) format('woff');
-}
-@font-face {
-  font-family: 'Ovo';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ovo'), url(http://themes.googleusercontent.com/static/fonts/ovo/v4/1cRrj96WT3He974w7Euhdw.woff) format('woff');
 }
 
 body {
@@ -80,7 +63,6 @@ body {
 }
 
 #container {
-/*	background-color: #fff; */
 	width: 900px;
 	padding: 0px 30px 90px 30px;
 	margin: 0px auto 0px auto;
@@ -89,10 +71,6 @@ body {
 
 #pageHeader {
 	background-color: rgba(255, 255, 255, .7);
-/*	background-image: url("../images/divider-shadow.png");
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-position: bottom center; */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -103,7 +81,7 @@ body {
 }
 
 h1 {
-  	font-family: 'Playfair Display';
+  	font-family: 'Playfair Display', Georgia, serif;
   	font-style: normal;
  	font-weight: 400;  	
  	font-size: 2.5em;
@@ -111,7 +89,7 @@ h1 {
 }
 
 h2 {
-  	font-family: 'Playfair Display';
+  	font-family: 'Playfair Display', Georgia, serif;
   	font-style: normal;
  	font-weight: 400;  	
   	font-size: 1.5em;
@@ -126,13 +104,11 @@ h2 span {
 
 h3 {
   	font-family: "Helvetica Neue", Arial, sans-serif;
-/*  font-style: italic;  */
   	font-size: 1.35em;
   	line-height: 1.8em;
   	font-weight: 200;
   	color: #222;
   	margin-top: 1.8em;
-/*  margin-bottom: 0.4em;  */
 }
 
 p {
@@ -145,20 +121,12 @@ p {
 
 #quickSummary {
 	height: 360px;
-/*
-	background-image: url("../images/garden_0296.jpg");
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 480px;
-*/
 }
 
 #quickSummary p.p1 {
 	margin-top: 120px;
 	padding-top: 135px;
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', Georgia, serif;
   	font-style: italic;
  	font-weight: 400;  	
   	font-size: 1.5em;
@@ -172,7 +140,6 @@ p {
 #quickSummary p.p2 {
 	width: 960px;
 	height: 80px;
-/*	background-color: #f1f1f1; */
 	background-image: url("../images/ribbon.png");
 	background-repeat: no-repeat;
 	background-position: right;
@@ -183,7 +150,6 @@ p {
 	color: #444;
 	line-height: 1.6em;
 	text-align: center;
-/*	margin: 30px 1em 0 1em; */
 	z-index: 100;
 }
 
@@ -201,7 +167,6 @@ p {
 	width: 710px;
 	float: left;
 	padding-bottom: 2.7em;
-/*	border-bottom: 1px solid #fff;  */
 	background-image: url("../images/divider-dot.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
@@ -211,7 +176,6 @@ p {
 	width: 710px;
 	float: left;
 	padding-bottom: 2.7em;
-/*	border-bottom: 1px solid #fff;  */
 	background-image: url("../images/divider-dot.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
@@ -221,7 +185,6 @@ p {
 	width: 710px;
 	float: left;
 	padding-bottom: 2.7em;
-/*	border-bottom: 1px solid #fff;  */
 	background-image: url("../images/divider-dot.png");
 	background-repeat: repeat-x;
 	background-position: bottom;
@@ -231,7 +194,6 @@ p {
 	width: 710px;
 	float: left;
 	padding-bottom: 2.7em;
-/*	border-bottom: 1px solid #fff;  */
 	background-image: url("../images/divider-dot.png");
 	background-repeat: repeat-x;
 	background-position: bottom;}
@@ -242,7 +204,6 @@ p {
 }
 
 #footer {
-/*	height: 30px;  */
 	margin: 30px 0 0 0;
 	padding: 12px 0 12px 0;
 	border-top: 1px solid #ccc; 
@@ -275,17 +236,6 @@ p {
 	
 }
 
-/*
-#extraDiv1 span img {
-	position: absolute;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	height: 480px;
-	z-index: 1001;
-}
-*/
-
 #extraDiv2 {
 	position: fixed;
 	top: 120px;
@@ -296,28 +246,6 @@ p {
 	background-repeat: no-repeat;
 	z-index: 1;
 }
-
-/*
-#extraDiv2 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto; 
-	width: 960px;
-	height: 10px;
-}
-*/
-
-/*
-#extraDiv3 img {
-
-	position: fixed;
-	top: -360px;
-	left: 0;
-	width: 100%;
-	height: 480px;
-	z-index: 1000;
-}
-*/
 
 #extraDiv4 {
 	position: fixed;
@@ -356,7 +284,6 @@ p {
 	height: 0px;
 }
 
-/*#lselect:hover ul, #larchives:hover ul, #lresources:hover ul {*/
 #linkList:hover ul {
 	opacity: 1;
 	-webkit-transition-property: opacity, height;
@@ -391,7 +318,9 @@ a:active {
 	color: #eee;
 }
 
-/* colors
+
+
+/* 	colors:
 	light green: #88aa66;
 	firm green: #669933;
 	pale blue: #aabbbb;
@@ -399,4 +328,3 @@ a:active {
 	paler blue: #aabbcc;
 	brown: #776655;
 */
-
