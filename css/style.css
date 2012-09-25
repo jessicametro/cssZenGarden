@@ -47,8 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/////////////////////////////////////////////////////////////////////////////////////////
-
 /* end css reset */
 
 @font-face {
@@ -393,5 +391,6 @@ a:active {
 	pale blue: #aabbbb;
 	bright green: #aacc66;
 	paler blue: #aabbcc;
+	brown: #776655;
 */
 
