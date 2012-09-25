@@ -179,8 +179,8 @@ p {
 	position: fixed;
 	bottom: 0;
 	right: 50%;
-	margin-right: -450px;
-	color: #fff;
+	margin-right: -472px;
+	color: #444;
 	line-height: 1.6em;
 	text-align: center;
 /*	margin: 30px 1em 0 1em; */
@@ -190,10 +190,10 @@ p {
 #quickSummary p.p2 span {
 	display: block;
 	position: absolute;
-	right: 0;
+	right: 15px;
 	width: 130px;
 	height: 36px;
-	padding: 20px 15px 0 15px;
+	padding: 25px 15px 0 15px;
 	text-align: center;
 }
 
@@ -320,7 +320,7 @@ p {
 */
 
 #linkList {
-	position: -webkit-sticky;
+/*	position: -webkit-sticky; */
 	top: 15px;
 	right: 0;
 	text-align: right;
@@ -344,6 +344,14 @@ a:hover {
 
 a:active {
 	text-decoration: underline;
+}
+
+#quickSummary p.p2 a {
+	color: #fff;
+}
+
+#quickSummary p.p2 a:hover {
+	color: #eee;
 }
 
 /* colors
